@@ -6,24 +6,29 @@
   <title>Tailwind</title>
   <link rel="stylesheet" href="/build/tailwind.css" type="text/css">
 </head>
-<body class="bg-gray-200">
-  <div class="px-8 py-12">
-    <img class="h-10" src="/img/cave.svg" alt="Barbambia" >
-    <img class="mt-6 rounded-lg shadow-xl" src="/img/cart.jpg" alt="pay foods to pootreb" >
-    <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">
-      Прежде всего начало повседневной работы 
-      <span class="text-indigo-500">способствует целесообразности изменений.</span>
-    </h1>
-    <p class="mt-2 text-gray-700">
-      Следует отметить, что повышение уровня гражданского сознания играет важную роль 
-      в формировании новых предложений. Повседневная практика показывает, 
-      что выбранный нами инновационный путь позволяет выполнять важные 
-      задания по разработке системы обучения кадров, 
-      соответствующей насущным потребностям.      
-    </p>
-    <div class="mt-4">
-      <a class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 text-sm text-white uppercase tracking-wider font-semibold" href="#">Book your escape</a>
+<body class="bg-gray-300">
+  <div class="bg-gray-100 flex">
+    <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+      <div class="xl:max-w-lg xl:ml-auto">
+        <img class="h-10" src="/img/cave.svg" alt="Barbambia" >
+        <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full  sm:object-cover sm:object-center lg:hidden" src="/img/cart.jpg" alt="pay foods to pootreb" >
+        <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+          Прежде всего начало повседневной работы 
+          <br class="hidden lg:inline"><span class="text-indigo-500">Cпособствует целесообразности изменений.</span>
+        </h1>
+        <p class="mt-2 text-gray-700 sm:mt-8 sm:text-xl">
+          Следует отметить, что повышение уровня гражданского сознания играет важную роль 
+          в формировании новых предложений. Повседневная практика показывает, 
+          что выбранный нами инновационный.     
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 text-sm text-white uppercase tracking-wider font-semibold sm:text-base" href="#">Book your escape</a>
+        </div>
+      </div>
+    </div> 
+    <div class="hidden lg:block lg:w-1/2 lg:relative">
+      <img class="absolute inset-0 h-full w-full object-cover object-center" src="/img/cart.jpg" alt="pay foods to pootreb" >
     </div>
-  </div> 
+  </div>
 </body>
 </html>
